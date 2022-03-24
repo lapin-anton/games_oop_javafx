@@ -7,6 +7,7 @@ public class Win {
             if (board[index][index] == 1
                     && (fullHorizontal(board, index) || fullVertical(board, index))) {
                 rsl = true;
+                break;
             }
         }
         return rsl;
